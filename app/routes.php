@@ -15,3 +15,19 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+//Route::get('producto','ProductoController@ListarProducto');
+
+Route::controller('producto','ProductoController');
+
+Route::get('creartabla',function()
+{
+	Schema::create('producto',function($table)
+	{
+		$table->increments('id');
+		$table->string('nombre');
+		$table->decimal('precio', 8, 2);
+	});
+	echo "Tabla producto creada satisfactoriamente";
+});
