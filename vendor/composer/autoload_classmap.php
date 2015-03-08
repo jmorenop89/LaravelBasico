@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AlumnoController' => $baseDir . '/app/controllers/AlumnoController.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'Boris\\Boris' => $vendorDir . '/d11wtq/boris/lib/Boris/Boris.php',
     'Boris\\CLIOptionsHandler' => $vendorDir . '/d11wtq/boris/lib/Boris/CLIOptionsHandler.php',
@@ -28,6 +29,8 @@ return array(
     'ClassPreloader\\Parser\\DirVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/DirVisitor.php',
     'ClassPreloader\\Parser\\FileVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php',
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
+    'ContactoController' => $baseDir . '/app/controllers/ContactoController.php',
+    'CreateTableProducto' => $baseDir . '/app/database/migrations/2015_02_21_170226_create_table_producto.php',
     'Crypt_AES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
     'Crypt_Base' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Base.php',
     'Crypt_Blowfish' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php',
@@ -506,6 +509,7 @@ return array(
     'Net_SSH1' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Net/SSH1.php',
     'Net_SSH2' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Net/SSH2.php',
     'Normalizer' => $vendorDir . '/patchwork/utf8/class/Normalizer.php',
+    'NoticiaController' => $baseDir . '/app/controllers/NoticiaController.php',
     'PHPParser_Autoloader' => $vendorDir . '/nikic/php-parser/lib/PHPParser/Autoloader.php',
     'PHPParser_Builder' => $vendorDir . '/nikic/php-parser/lib/PHPParser/Builder.php',
     'PHPParser_BuilderAbstract' => $vendorDir . '/nikic/php-parser/lib/PHPParser/BuilderAbstract.php',
@@ -955,6 +959,7 @@ return array(
     'Predis\\Session\\SessionHandler' => $vendorDir . '/predis/predis/lib/Predis/Session/SessionHandler.php',
     'Predis\\Transaction\\AbortedMultiExecException' => $vendorDir . '/predis/predis/lib/Predis/Transaction/AbortedMultiExecException.php',
     'Predis\\Transaction\\MultiExecContext' => $vendorDir . '/predis/predis/lib/Predis/Transaction/MultiExecContext.php',
+    'ProductoController' => $baseDir . '/app/controllers/ProductoController.php',
     'Psr\\Log\\AbstractLogger' => $vendorDir . '/psr/log/Psr/Log/AbstractLogger.php',
     'Psr\\Log\\InvalidArgumentException' => $vendorDir . '/psr/log/Psr/Log/InvalidArgumentException.php',
     'Psr\\Log\\LogLevel' => $vendorDir . '/psr/log/Psr/Log/LogLevel.php',
@@ -1570,6 +1575,7 @@ return array(
     'System_SSH_Agent_Identity' => $vendorDir . '/phpseclib/phpseclib/phpseclib/System/SSH/Agent.php',
     'TestCase' => $baseDir . '/app/tests/TestCase.php',
     'User' => $baseDir . '/app/models/User.php',
+    'UserController' => $baseDir . '/app/controllers/UserController.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
     'Whoops\\Exception\\Formatter' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Formatter.php',
     'Whoops\\Exception\\Frame' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Frame.php',
