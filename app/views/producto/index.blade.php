@@ -7,6 +7,7 @@ Lista de Productos
 @stop
 @section("content")
 <a href="/producto/registrar" class="btn btn-info">NUEVO</a>
+<br><br>
 <div class="table-responsive">
     <table class="table table-striped">
         <thead>

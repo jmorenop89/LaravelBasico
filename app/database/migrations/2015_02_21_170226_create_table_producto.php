@@ -18,6 +18,7 @@ class CreateTableProducto extends Migration {
 			$table->string('nombre');
 			$table->decimal('precio',8,2);
 			$table->string('categoria');
+			$table->timestamps();
 		});
 	}
 

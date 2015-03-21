@@ -1,8 +1,10 @@
 <?php 
 	class Producto extends Eloquent
 	{
-		public $timestamps = false;
+		public $timestamps = true;
+
 		protected $table = 'producto';
+		
 	}
 
 
